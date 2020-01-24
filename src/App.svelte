@@ -37,7 +37,7 @@
         <span class="small">|</span>
         <span class="small link" on:click={goToTwitter}>Twitter</span>
       </div>
-      <span class="small link">andrew@budziszek.com</span>
+      <span class="small link" on:click={openEmail}>andrew@budziszek.com</span>
     </div>
   </section>
 </main>
