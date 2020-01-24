@@ -11,6 +11,7 @@
   }
 
   function goToTwitter() {
+    console.log("I AM DOING A THING!");
     window.location.href = "https://twitter.com/AndrewBudziszek";
   }
 
