@@ -13,6 +13,10 @@
   function goToTwitter() {
     window.location.href = "https://twitter.com/AndrewBudziszek";
   }
+
+  function openEmail() {
+    window.location.href = "mailto:andrew@budziszek.com?subject=Hello!";
+  }
 </script>
 
 <main>
@@ -28,9 +32,9 @@
       <div class="nameplate">
         <span class="small link" on:click={goToLinkedIn}>LinkedIn</span>
         <span class="small">|</span>
-        <span class="small link">GitHub</span>
+        <span class="small link" on:click={goToGitHub}>GitHub</span>
         <span class="small">|</span>
-        <span class="small link">Twitter</span>
+        <span class="small link" on:click={goToTwitter}>Twitter</span>
       </div>
       <span class="small link">andrew@budziszek.com</span>
     </div>
