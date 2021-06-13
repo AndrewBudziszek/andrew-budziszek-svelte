@@ -11,12 +11,19 @@
   }
 
   function goToTwitter() {
-    console.log("I AM DOING A THING!");
     window.location.href = "https://twitter.com/AndrewBudziszek";
   }
 
   function openEmail() {
     window.location.href = "mailto:andrew@budziszek.com?subject=Hello!";
+  }
+  
+  function goToayyyymc() {
+    window.location.href = "https://www.ayyyyymc.bet/"; 
+  }
+  
+  function goToGme() {
+    window.location.href = "https://www.isgmeup.space/";
   }
 </script>
 
@@ -38,6 +45,9 @@
         <span class="small link" on:click={goToTwitter}>Twitter</span>
       </div>
       <span class="small link" on:click={openEmail}>andrew@budziszek.com</span>
+      <hr/>
+      <span class="small link" on:click={goToayyyymc}>ayyyyy.bet</span> <br/>
+      <span class="small link" on:click={goToGme}>isgmeup.space</span>
     </div>
   </section>
 </main>
