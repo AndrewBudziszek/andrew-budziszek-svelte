@@ -44,7 +44,7 @@
         <span class="small">|</span>
         <span class="small link" on:click={goToTwitter}>Twitter</span>
       </div>
-      <span class="small link" on:click={openEmail}>andrew@budziszek.com</span>
+      <span class="small link" on:click={openEmail}>andrew@budziszek.com</span> <br/>
       <span class="small link" on:click={goToayyyymc}>ayyyyy.bet</span>
       <span class="small link" on:click={goToGme}>isgmeup.space</span>
     </div>
